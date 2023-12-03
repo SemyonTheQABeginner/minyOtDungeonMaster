@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <windows.h>
-#include <time.h>
+
 
 #define MAX_SIZE 101
 
