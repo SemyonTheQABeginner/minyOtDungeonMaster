@@ -141,7 +141,7 @@ void game(int a, int b, int q_mines, long *result) {
 			if (scanf("%d %d", &x, &y) != 2 || x < 1 || x > a || y < 1 ||
 				y > b) {
 				clearConsole();
-				printf("Invalid input. Try again, idiot.\n");
+				printf("Invalid input. Try again.\n");
 			} else {
 				break;
 			}
@@ -178,7 +178,7 @@ void game(int a, int b, int q_mines, long *result) {
 				if (a == 100 && b == 100) {
 					printf("GOOOOOOOIIIDDDAAAAAAA!!!\n");
 				} else {
-					printf("Nice job, smartass!\n");
+					printf("Nice job!\n");
 				}
 				game_result = 1;
 				break;	
@@ -187,7 +187,7 @@ void game(int a, int b, int q_mines, long *result) {
 		} else {
 			clearConsole();
 			printField(a, b);
-			printf("You lose, try again looser!\n");
+			printf("You lose, try again!\n");
 			break;
 		}
 	}
@@ -231,7 +231,7 @@ int main() {
 			if (scanf("%d %d", &a, &b) != 2 || a > 100 || a < 5 || b > 100 ||
 				b < 5) {
 				clearConsole();
-				printf("Invalid input. Try again. Trying break my code, maggot?\n");
+				printf("Invalid input. Try again.\n");
 			} else {
 				break;
 			}
