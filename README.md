@@ -1,2 +1,2 @@
 # minyOtDungeonMa
-Иди игру чекай, читатель великий
+Běž na dívat, čtenář veliký 
