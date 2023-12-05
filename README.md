@@ -1,2 +1,2 @@
 # minyOtDungeonMa
-Běž na dívat, čtenář veliký 
+Běž na hru dívat, čtenář veliký 
